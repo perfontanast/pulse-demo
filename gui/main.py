@@ -5,7 +5,7 @@ from dash import Dash, Input, Output, State, callback_context, dcc, html
 from dash.exceptions import PreventUpdate
 from dash_extendable_graph import ExtendableGraph
 
-from gui.utils import ApiSchema, api_response, get_prices_dataframe
+from utils import ApiSchema, api_response, get_prices_dataframe
 
 app = Dash(__name__)
 
@@ -72,4 +72,4 @@ def extend_chart(intervals, ticker, figure):
 
 if __name__ == '__main__':
     # TODO: disable debug in product environment
-    app.run_server(debug=True)
+    app.run_server(host='0.0.0.0', debug=True)

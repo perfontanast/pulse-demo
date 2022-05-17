@@ -85,6 +85,8 @@ When selecting another ticker, under certain conditions chart may seem to be fro
 
 ## Things not done
 * sophisticated tests and 100% coverage
+* docstrings and comments
+* deployment and testing pipelines
 * models for DB and API
 * support for DB schema and data migrations
 * standalone DBMS in separate container

@@ -30,7 +30,7 @@ That's it! Happy testing.
 
 ### Manual run
 
-Run `RUN python pulse/db.py`` `python pulse/pulse.py` once to creat DB and schema. It won't hurt if you run it twice, no worries.
+Run `RUN python pulse/db.py` once to creat DB and schema. It won't hurt if you run it twice, no worries.
 
 Run `python pulse/pulse.py` to launch data generator.
 

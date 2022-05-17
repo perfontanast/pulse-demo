@@ -84,10 +84,11 @@ Feel free to use browser developer tools and check what's going on.
 When selecting another ticker, under certain conditions chart may seem to be frozen and not updating. **Double click chart area** to make it work again. This is related to area scaling of Plotly component used.
 
 ## Things not done
+* sophisticated tests and 100% coverage
 * models for DB and API
 * support for DB schema and data migrations
 * standalone DBMS in separate container
-* real OHLCV data generator with more sophisticated logic
+* OHLCV data generator with realistic logic
 * validations of requests and responses on API and GUI side
 * pagination of API results
 * flexible configuration

@@ -24,7 +24,7 @@ Run a docker image:
 docker run --rm -it -p 8050:8050 pulse-demo
 ```
 
-Point your favorite browser to `http://127.0.0.1:8050/`. You should see a simple app.
+Point your favorite browser to `http://127.0.0.1:8050/`. You should see a simple app. Pick a ticker - and enjoy watching the chart evolution.
 
 That's it! Happy testing.
 
@@ -36,7 +36,8 @@ Run `python pulse/pulse.py` to launch data generator.
 
 Next, run `uvicorn api.main:app --host 0.0.0.0 --port 8000` to start API service.
 
-Finally, run simple web server
+Finally, run simple web server with `python gui/main.py` and go to `http://127.0.0.1:8050/` to see the result.
+
 
 ## Components
 
